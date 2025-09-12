@@ -7,3 +7,9 @@ if var1=="Real Madrid" or var1=="Madrid":
     print("Ese equipo es una basura!")
 else:
     print("Que equipazo! Estoy de acuerdo contigo!")
+var2=input ("Y cual es para ti el mejor jugador de todos los tiempos?")
+if var1=="Messi" or var1=="Leo Messi" or var1=="Ronaldo" or var1=="Cristiano Ronaldo"
+    print("No esta mal...")
+else:
+    print("¡El verdadero GOAT del futbol!") or ("¡Tu si que sabes chaval!")
+
