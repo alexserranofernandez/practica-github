@@ -1,5 +1,5 @@
 var1=int(input("Introduce un número de horas"))
 total_minutos=var1*60
 total_segundos=var1*3600
-print("El número de horas que has introducido són" ,total_minutos, "minutos")
-print("Y el número de horas que has introducido són" ,total_segundos, "segundos")
+print("El número de horas que has introducido son" ,total_minutos, "minutos")
+print("Y el número de horas que has introducido son" ,total_segundos, "segundos")
