@@ -1,0 +1,6 @@
+var1=int(input("Introduce un número entero"))
+var2=input("Introduce una letra")
+var3=float(input("Introduce un número decimal"))
+print("El número entero introducido és:", var1)
+print("La letra introducida és:", var2)
+print("El número decimal introducido és:", var3)
