@@ -1,5 +1,5 @@
-var1=int(input("Introduce un número"))
-var2=int(input("Introduce otro número"))
+var1=float(input("Introduce un número"))
+var2=float(input("Introduce otro número"))
 total_cociente=var1/var2
 total_resto=var1%var2
 print("El cociente es:", total_cociente)
