@@ -5,4 +5,4 @@ En la prueba uno incluimos el uso de las varibles junto a: input, if, else, or y
 
 Alex Serrano Fernández.
 
-La versión inicial del código es más senzilla todavía ya que, no cuenta con comentarios.
+La versión inicial del código es más sencilla todavía ya que, no cuenta con comentarios.
