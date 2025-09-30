@@ -1,3 +1,5 @@
+#A partir del programa 5. Haz que se muestre por pantalla también la frase en el orden 
+#inverso en que se han introducido las palabras
 var1=input("Introduce la primera palabra")
 var2=input("Introduce la segunda palabra")
 var3=input("Introduce la tercera palabra")

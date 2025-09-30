@@ -1,3 +1,5 @@
+#Realiza un programa que, introduciendo en los valores de lado, base menor, base mayor 
+#y altura de un trapecio isósceles, nos devuelva por pantalla en el área y el perímetro. 
 var1=float(input("Introduce el lado del trapecio"))
 var2=float(input("Introduce la altura del trapecio"))
 var3=float(input("Introduce la base pequeña del trapecio"))
