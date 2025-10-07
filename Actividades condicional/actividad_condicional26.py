@@ -7,4 +7,4 @@ if len(var1) == 1 and var1.isalpha:
     elif var1.islower():
         print("La letra introducida es minuscula")
     elif var1.isnumeric():
-        print("El valor introducido es un número")
+        print("La letra es mayuscula ¿?")
