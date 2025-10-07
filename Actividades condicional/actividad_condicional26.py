@@ -8,5 +8,3 @@ if len(var1) == 1 and var1.isalpha:
         print("La letra introducida es minuscula")
     elif var1.isnumeric():
         print("El valor introducido es un número")
-else:
-    print("El valor introducido no es ni númerico ni alfabético")
