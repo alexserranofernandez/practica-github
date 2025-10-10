@@ -1,6 +1,5 @@
 #Programa un código que permita contar el número de vocales de la siguiente frase: No 
 #hay mal que dure cien años
-
 var_frase="No hay mal que dure cien años"
 var_frase=var_frase.lower()
 vocal_a="a"
