@@ -1,0 +1,1 @@
+#Imprime el siguiente patrón utilizando for:
