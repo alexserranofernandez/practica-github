@@ -1,6 +1,5 @@
-#Realiza un programa que introduzcas por teclado una palabra ‘secreta’, consigue la longitud de 
-#esa palabra para que sea ese el criterio que establezca el rango del bucle de manera que el usuario
-#tenga x oportunidades para ver si letra introducida está en esa palabra.
+#A partir del programa anterior, modifica el código para que al introducir la letra por teclado te 
+#indique en qué posición de la palabra se encuentra la letra.
 var_palabra=input("Introduce una palabra:")
 var_palabra=var_palabra.lower
 var_oportunidades=5
@@ -14,5 +13,5 @@ for i in range(var_oportunidades):
         print("Te has quedado sin oportunidades")
         
     else:   
-        print("La letra está en la palabra")
+        print(f"La letra está en la posición  en la palabra")
         exit()
