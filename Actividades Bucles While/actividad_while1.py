@@ -3,5 +3,3 @@ repeticiones=3
 while repeticiones!=0:
     print("buenos dias")
     repeticiones=repeticiones-1
-    if repeticiones<=0:
-        break
