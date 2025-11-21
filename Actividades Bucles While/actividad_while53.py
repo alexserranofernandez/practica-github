@@ -13,5 +13,5 @@ while repetición=="s":
     repetición=input("Desea repetir la operación s/n:")
 else:
     print("Fin del programa. Resumen")
-    print(f"La suma total es: {suma_total} y el número de repeticiones es: {repeticiones_totales} ")
+    print(f"La suma total es: {suma_total} y el número de repeticiones es: {repeticiones_totales}.")
     
