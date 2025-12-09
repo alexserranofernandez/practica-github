@@ -25,54 +25,57 @@ print("BEBIDAS")
 print("1. Coca cola - 2€")
 print("2. Acuarius - 1.5€")
 print("3. Agua - 1€")
-numero_pedidos=int(input("Introduce el número de pedidos que quieres:"))
-numero=0
-menu=0
-acompanyamiento=0
-bebidas=0
-total_precio=0
-descuento=0
-while numero_pedidos>=numero:
-    menu=int(input("Introduce el número del plato principal:"))
-    acompanyamiento=int(input("Introduce el número del acompañamiento:"))
-    bebidas=int(input("Introduce el número de la bebida:"))
-    print("")
-    print("SIGUIENTE PEDIDO:")
-    numero=numero+1
+precio_normal=0
+precio_descuento5=0
+precio_descuento15=0
+precio_iva=0
+porcentaje_iva=0
+pedidos=0
+porcentaje_descuento5=0
+porcentaje_descuento15=0
+repeat="s"
+while repeat=="s":
+    menu=int(input("Introduce el menú (1,2,3):"))
+    acompañamiento=int(input("Introduce el acompañamiento (1,2,3):"))
+    bebida=int(input("Introduce la bebida (1,2,3):"))
     if menu==1:
-        total_precio=float(total_precio+9)
-    elif menu==2:
-        total_precio=float(total_precio+4.5)
-    elif menu==3:
-        total_precio=float(total_precio+2.5)
-    if acompanyamiento==1:
-        total_precio=float(total_precio+1.5)
-    elif acompanyamiento==2:
-        total_precio=float(total_precio+1.75)
-    elif acompanyamiento==3:
-        total_precio=float(total_precio+2)
-    if bebidas==1:
-        total_precio=float(total_precio+2)
-    elif bebidas==2:
-        total_precio=float(total_precio+1.5)
-    elif bebidas==3:
-        total_precio=float(total_precio+1)
-
-iva=total_precio*10/100
-total_iva=total_precio-iva
-if total_iva<30 and total_iva>20:
-    descuento=total_iva*5/100
-    precio_descuento=total_iva-descuento
+        precio_normal=precio_normal+9
+    if menu==2:
+        precio_normal=precio_normal+4.5
+    if menu==3:
+        precio_normal=precio_normal+2.5
+    if acompañamiento==1:
+        precio_normal=precio_normal+1.5
+    if acompañamiento==2:
+        precio_normal=precio_normal+1.75
+    if acompañamiento==3:
+        precio_normal=precio_normal+2
+    if bebida==1:
+        precio_normal=precio_normal+2
+    if bebida==2:
+        precio_normal=precio_normal+1.5
+    if bebida==3:
+        precio_normal=precio_normal+1
+    pedidos=pedidos+1
+    repeat=input("¿Quieres otro pedido más?(s/n)")
+porcentaje_iva=precio_normal*10/100
+precio_iva=precio_normal+porcentaje_iva
+if precio_iva<=30 and precio_iva>=20:
+    porcentaje_descuento5=precio_iva*5/100
+    precio_descuento5=precio_iva-porcentaje_descuento5
+    precio_descuento5=round(precio_descuento5,1)
     print("RESUMEN")
-    print(f"Número de pedidos:{numero_pedidos}")
-    print(f"Total a pagar:{total_precio}")
-    print(f"Total con iva:{total_iva}")
-    print(f"Precio total con descuento del 5%:{precio_descuento}")
-elif total_iva>30:
-    descuento=total_iva*15/100
-    precio_descuento=total_iva-descuento
+    print(f"Número de pedidos:{pedidos}")
+    print(f"Total a pagar:{precio_normal}")
+    print(f"Total con iva:{precio_iva}")
+    print(f"Precio total con descuento del 5%:{precio_descuento5}")  
+if precio_iva>30:
+    porcentaje_descuento15=precio_iva*15/100
+    precio_descuento15=precio_iva-precio_descuento15
+    precio_descuento15=round(precio_descuento15,2)
     print("RESUMEN")
-    print(f"Número de pedidos:{numero_pedidos}")
-    print(f"Total a pagar:{total_precio}")
-    print(f"Total con iva:{total_iva}")
-    print(f"Precio total con descuento del 15%:{precio_descuento}")
+    print(f"Número de pedidos:{pedidos}")
+    print(f"Total a pagar:{precio_normal}")
+    print(f"Total con iva:{precio_iva}")
+    print(f"Precio total con descuento del 15%:{precio_descuento15}")  
+        
