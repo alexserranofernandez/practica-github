@@ -69,13 +69,12 @@ if precio_iva<=30 and precio_iva>=20:
     print(f"Total a pagar:{precio_normal}")
     print(f"Total con iva:{precio_iva}")
     print(f"Precio total con descuento del 5%:{precio_descuento5}")  
-if precio_iva>30:
+elif precio_iva>30:
     porcentaje_descuento15=precio_iva*15/100
-    precio_descuento15=precio_iva-precio_descuento15
+    precio_descuento15=precio_iva-porcentaje_descuento15
     precio_descuento15=round(precio_descuento15,2)
     print("RESUMEN")
     print(f"Número de pedidos:{pedidos}")
     print(f"Total a pagar:{precio_normal}")
     print(f"Total con iva:{precio_iva}")
     print(f"Precio total con descuento del 15%:{precio_descuento15}")  
-        
