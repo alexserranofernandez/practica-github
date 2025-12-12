@@ -1,4 +1,6 @@
-# practica-github
+# PRÁCTICA GITHUB
+
+## INTRODUCCIÓN
 Crear un sistema de organización avanzado con todos los archivos codificados organizados meticulosamente en este espacio.
 
 En la prueba uno incluimos el uso de las varibles junto a: input, if, else, or y print. Dando así un senzillo código para exponer en Github.
@@ -7,7 +9,9 @@ Alex Serrano Fernández.
 
 La versión inicial del código es más sencilla todavía ya que, no cuenta con comentarios.
 
-# ACTIVIDADES INICIALES
+# ACTIVIDADES
+
+## ACTIVIDADES INICIALES
 
 1. Programa que muestre por pantalla la frase “hello world”.
 
@@ -53,7 +57,7 @@ introduciendo por teclado el valor de radio y altura. Resultado con 2 decimales.
 
 16. Utiliza el método sqrt de la librería math para calcular la raíz cuadrada de un número. El 
 resultado de la raíz cuadrada divídelo entre 2 de manera que se obtenga siempre un 
-resultado entero. Haz que se muestre por pantalla los dos resultados de todo el proceso 
+resultado entero. Haz que se muestre por pantalla los dos resultados de todo el proceso.
 
 17. Calcula el índice de masa corporal IMC de una persona, introduciendo por teclado el 
 peso (en kg) y dividiendo por la estatura (en metros y elevado al cuadrado). Si el resultado 
@@ -64,7 +68,7 @@ importantes descuentos. A los adultos se les aplicará un 10% de descuento y a l
 de 18 años un 50%. Si la entrada cuesta 12 euros, calcula el total a pagar introduciendo por 
 teclado el número de menores y el número de adultos que asisten al cine.
 
-# ACTIVIDADES CONDICIONALES
+## ACTIVIDADES CONDICIONALES
 
 19. Programa que introduzca dos números y devuelva cuál de los dos es mayor, menor o son 
 iguales.
@@ -103,7 +107,7 @@ igual, menor o mayor de 11 caracteres. Utiliza elif.
 
 31. Asigna a una variable de texto la siguiente frase: A quién madruga Dios ayuda. 
 Comprueba si existen las siguientes palabras mostrando por pantalla la posición de su 
-índice..
+índice.
 
 32. Cómo solucionarías con ayuda de métodos String el problema del ejercicio anterior para 
 no distinguir entre mayúsculas y minúsculas.
@@ -114,3 +118,311 @@ hay mal que dure cien años.
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se 
 ejecute correctamente.
 
+## ACTIVIDADES CON BUCLES FOR
+
+35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu 
+nombre.
+
+36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
+
+37. Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado 
+o suspendido.
+
+38. A partir del programa anterior, establece los rangos para que el usuario no pueda introducir 
+notas inferiores a 0 y superiores a 10.
+
+39. Programa que pida n números y que, tras introducir el último número, debe aparecer por 
+pantalla el número total de positivos, negativos y número de 0.
+
+40. Crea un programa que cuente todos los números pares hasta el número 50.
+
+41. Imprime el siguiente patrón utilizando for.
+
+42. Imprima el siguiente patrón con el ciclo for. 
+
+43. Realiza un programa que recorra con un for una palabra introducida por teclado y se imprima 
+por pantalla cada letra.
+
+44. Realiza un programa que recorra todos los números comprendidos de 0 a 100 realizando saltos 
+de 3 en 3. El resultado debe aparecer por pantalla en una línea con los números separados por ‘,’.
+
+45. Realiza un programa que permita introducir una palabra por teclado y puedas recorrer el string
+distinguiendo vocales y las consonantes.
+
+46. A partir del programa anterior, soluciona el error que se produce en el test anterior con la 
+palabra Abrigo utilizando únicamente una instrucción.
+
+47. Realiza un programa donde el usuario introduzca por teclado 2 intervalos, por pantalla se debe 
+mostrar el rango de números teniendo en cuenta que si a<b la secuencia será incremental y si a>b 
+la secuencia en descenso. Respeta el formato de salida.
+
+48. Realiza un programa que introduzcas por teclado una palabra ‘secreta’, consigue la longitud de 
+esa palabra para que sea ese el criterio que establezca el rango del bucle de manera que el usuario
+tenga x oportunidades para ver si letra introducida está en esa palabra.
+
+49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te 
+indique en qué posición de la palabra se encuentra la letra.
+
+## ACTIVIDADES CON BUCLES WHILE
+50. Realiza un programa que de los buenos días 3 veces. Con While.
+
+51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el 
+número de veces que desea que repita la frase Buenos días. Con While.
+
+52. Realiza un programa que sume dos números enteros por teclado y presente el resultado por 
+pantalla. El programa preguntará si deseas o no repetir la operación. Con While.
+
+53. A partir del código anterior, haz que aparezca al finalizar el programa por pantalla el total las 
+sumas y el número de repeticiones. Con While.
+
+54. Modifica el programa anterior y haz que se repita el ciclo automáticamente hasta que el total 
+de todas las sumas sea superior a 50, será entonces cuando el programa finalice. No hará falta 
+preguntar si deseas repetir la operación. En cada operación aparece por pantalla la suma de la 
+operación y su acumulado. Para aquellos de vosotros que os fijáis en los detalles, controlar que el 
+mensaje del acumulado es singular o plural. Con While.
+
+55. Última vez que reutilizamos el mismo código.. lo prometo . A partir del programa anterior 
+haz que sea todo exactamente igual pero teniendo en cuenta que el programa se repita siempre y 
+cuando la suma acumulada sea superior a 50 o la suma acumulada sea par. Con While.
+
+56. Realiza un programa que gestione un establecimiento de venta de bocadillos. Un pedido se 
+compone de: bocadillo, acompañamiento y bebida. Un cliente puede pedir más de un pedido. El 
+dependiente a partir del menú (ver imagen), se encarga de introducir los datos. El menú solo se 
+visualiza una vez al ejecutar el programa. El programa debe preguntar al dependiente tras la 
+realización de un pedido, si quiere gestionar otro. 
+El establecimiento contempla los siguientes descuentos:
+Si el total a pagar es entre 20 y 30 euros, se aplica un descuento del 5%
+Si el total a pagar es superior a 30 euros, se aplica un descuento del 15%
+Una vez se finaliza la introducción de todos los pedidos de un cliente, debe aparecer por pantalla:
+• El número de pedidos realizados
+• Total a pagar.
+• Total con IVA (10%)
+• Total con el descuento aplicado.
+MENÚ
+1. Bocadillo de calamares- 9 €"
+2. Bocadillo de chistorra - 4.5 €
+3. Bikini de jamón - 2.5 €"
+ACOMPAÑAMIENTO
+1. Patatas finas - 1.5 €
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+2. Patatas gruesas - 1.75 €
+3. Patatas rústicas - 2 €
+BEBIDAS
+1. Coca cola - 2 €"
+2. Acuarius - 1.5 €
+3. Agua - 1 €"
+Ejemplo de 2 pedidos:
+1
+2
+1
+s
+2
+2
+2
+n
+RESUMEN
+Número de pedidos: 2
+Total a pagar: 20.5
+Total con iva: 22.55
+Precio total con descuento del 5%: 21.4
+Ejemplo de 3 pedidos:
+2
+1
+1
+s
+1
+1
+1
+s
+3
+2
+1
+s
+3
+3
+1
+n
+RESUMEN
+Número de pedidos: 4
+Total a pagar: 33.25
+Total con iva: 36.575
+Precio total con descuento del 15%: 31.08
+56b.Opcional. Haz alguna o todas las mejoras en el programa anterior que a continuación se 
+indican:
+- Cuando se pregunta “si desea realizar otro pedido”, el encargado puede introducir s ó n en 
+mayúscula o minúscula.
+- Si el encargado introduce otro valor distinto a S o N, el programa debe repetir la pregunta e 
+informar de que ha introducido un valor equivocado.
+- El lugar de almacenar los precios en variables, utiliza una biblioteca (busca información) e investiga 
+como moverte por los índices.
+- Un pedido puede estar formado por 3, 2 o 1 componentes. Ej. Un usuario puede pedir únicamente
+una bebida.
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+Ejercicios con Random. Empezaremos con ejercicios sencillos para entender el funcionamiento de 
+esta librería y combinaremos con bucles.
+57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa 
+debe controlar si el usuario introduce un número no comprendido entre 1 y 5
+Número acertado
+Número no acertado
+58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while
+59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que 
+intentemos adivinarlo. En cada intento, el programa nos dirá si el numero introducido es mayor o 
+menor del correcto. No utilices break para salir del bucle. Cuando se acierte el número debe 
+mostrarse por pantalla un mensaje y el número de intentos.
+Introduce un valor comprendido entre 1 y 1000: 500
+El número que has introducido es menor
+Introduce un valor comprendido entre 1 y 1000: 600
+El número que has introducido es mayor
+Introduce un valor comprendido entre 1 y 1000: 550
+El número que has introducido es menor
+Introduce un valor comprendido entre 1 y 1000: 575
+El número que has introducido es mayor
+Introduce un valor comprendido entre 1 y 1000: 560
+El número que has introducido es mayor
+Introduce un valor comprendido entre 1 y 1000: 555
+El número que has introducido es menor
+Introduce un valor comprendido entre 1 y 1000: 557
+Acertaste, has realizado 7 intentos
+60. Diseña un programa que al introducir un número, realice su tabla de multiplicar del 1 al 10. 
+Utiliza únicamente el while
+5 5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+2 2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+61. A partir del código anterior, haz que el programa finalice si el valor de la tabla de multiplicar es
+superior o igual a 40.
+5 5
+10
+15
+20
+25
+30
+35
+40
+Fin de programa
+62. Realiza un programa que pida dos números por teclado y presente por pantalla qué números 
+hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
+4
+12
+los números pares son 4-6-8-10
+los números impares son 5-7-9-11
+20
+1
+los números pares son 2-4-6-8-10-12-14-16-18
+los números impares son 1-3-5-7-9-11-13-15-17-19
+63. Realiza un programa que permita tirar 100 veces un dado y nos presente por pantalla el número
+de veces que se repite cada número.
+Uno: 11
+Dos: 10
+Tres: 27
+Cuatro: 18
+Cinco: 17
+Seis: 16
+Uno: 16
+Dos: 19
+Tres: 19
+Cuatro: 12
+Cinco: 20
+Seis: 13
+64. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
+-99. Será entonces cuando por pantalla aparecerán las siguientes estadísticas:
+a) total de pares
+b) total de impares
+c) total de números positivos
+d) total de números negativos
+e) total de ceros
+f) total de la suma de todos los números introducidos
+Introduce un número: 5
+Introduce un número: 4
+Introduce un número: 5
+Introduce un número: 6
+Introduce un número: 7
+Introduce un número: 1
+Introduce un número: -6
+Introduce un número: -2
+Introduce un número: -99
+RESUMEN
+El número de pares es 4
+El número de impares es 4
+El número de positivos es 6
+El número de negativos es 2
+El total es 20
+PROGRAMACIÓN CON PYTHON
+Departamento de Tecnología
+65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
+-99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
+Introduce un número: 5
+Introduce un número: 4
+Introduce un número: 5
+Introduce un número: 6
+Introduce un número: 7
+Introduce un número: 1
+Introduce un número: -6
+Introduce un número: -2
+Introduce un número: -99
+RESUMEN
+El número de pares es 4
+El número de impares es 4
+El número de positivos es 6
+El número de negativos es 2
+El total es 20
+66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo 
+se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
+RESUMEN
+Tiempo: 3.0004172325134277
+Uno: 995637
+Dos: 994685
+Tres: 998149
+Cuatro: 995805
+Cinco: 997652
+Seis: 1000241
+3.000000476837158
+Uno: 981988
+Dos: 981767
+Tres: 979951
+Cuatro: 981394
+Cinco: 979586
+Seis: 982981
+67. Realiza de nuevo el programa de Password (fase 2). El password debe tener las siguientes 
+consideraciones:
+Debe tener una longitud entre 6 y 8 caracteres.
+Debe contener como mínimo:
+2 números mayores o iguales que 1 y menor o igual que 5
+2 letras minúsculas
+1 letra mayúscula
+2 símbolos (*, _, @, &,/,#)
+1 número mayor o igual que 6 y menor o igual que 5
+41A*a8#3
+2Aa*a
+8BA*t7#4
+1bB_a7/4
+1bB_a7
+2Aa*a5#8a
+password incorrecto
+password incorrecto
+password incorrecto
+password correcto
+password incorrecto
+password correcto
+66. Añade al ejercicio anterior la posibilidad de que el programa pregunte si deseas o no continuar 
+introduciendo passwords. Ej. “¿Deseas introducir otro password s/n
