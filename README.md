@@ -212,42 +212,7 @@ BEBIDAS
 1. Coca cola - 2 €"
 2. Acuarius - 1.5 €
 3. Agua - 1 €"
-Ejemplo de 2 pedidos:
-1
-2
-1
-s
-2
-2
-2
-n
-RESUMEN
-Número de pedidos: 2
-Total a pagar: 20.5
-Total con iva: 22.55
-Precio total con descuento del 5%: 21.4
-Ejemplo de 3 pedidos:
-2
-1
-1
-s
-1
-1
-1
-s
-3
-2
-1
-s
-3
-3
-1
-n
-RESUMEN
-Número de pedidos: 4
-Total a pagar: 33.25
-Total con iva: 36.575
-Precio total con descuento del 15%: 31.08
+
 56b.Opcional. Haz alguna o todas las mejoras en el programa anterior que a continuación se 
 indican:
 - Cuando se pregunta “si desea realizar otro pedido”, el encargado puede introducir s ó n en 
@@ -258,92 +223,29 @@ informar de que ha introducido un valor equivocado.
 como moverte por los índices.
 - Un pedido puede estar formado por 3, 2 o 1 componentes. Ej. Un usuario puede pedir únicamente
 una bebida.
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
-Ejercicios con Random. Empezaremos con ejercicios sencillos para entender el funcionamiento de 
-esta librería y combinaremos con bucles.
+
 57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa 
 debe controlar si el usuario introduce un número no comprendido entre 1 y 5
-Número acertado
-Número no acertado
+
 58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while
+
 59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que 
 intentemos adivinarlo. En cada intento, el programa nos dirá si el numero introducido es mayor o 
 menor del correcto. No utilices break para salir del bucle. Cuando se acierte el número debe 
 mostrarse por pantalla un mensaje y el número de intentos.
-Introduce un valor comprendido entre 1 y 1000: 500
-El número que has introducido es menor
-Introduce un valor comprendido entre 1 y 1000: 600
-El número que has introducido es mayor
-Introduce un valor comprendido entre 1 y 1000: 550
-El número que has introducido es menor
-Introduce un valor comprendido entre 1 y 1000: 575
-El número que has introducido es mayor
-Introduce un valor comprendido entre 1 y 1000: 560
-El número que has introducido es mayor
-Introduce un valor comprendido entre 1 y 1000: 555
-El número que has introducido es menor
-Introduce un valor comprendido entre 1 y 1000: 557
-Acertaste, has realizado 7 intentos
+
 60. Diseña un programa que al introducir un número, realice su tabla de multiplicar del 1 al 10. 
-Utiliza únicamente el while
-5 5
-10
-15
-20
-25
-30
-35
-40
-45
-50
-2 2
-4
-6
-8
-10
-12
-14
-16
-18
-20
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
+Utiliza únicamente el while.
+
 61. A partir del código anterior, haz que el programa finalice si el valor de la tabla de multiplicar es
 superior o igual a 40.
-5 5
-10
-15
-20
-25
-30
-35
-40
-Fin de programa
+
 62. Realiza un programa que pida dos números por teclado y presente por pantalla qué números 
 hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
-4
-12
-los números pares son 4-6-8-10
-los números impares son 5-7-9-11
-20
-1
-los números pares son 2-4-6-8-10-12-14-16-18
-los números impares son 1-3-5-7-9-11-13-15-17-19
+
 63. Realiza un programa que permita tirar 100 veces un dado y nos presente por pantalla el número
 de veces que se repite cada número.
-Uno: 11
-Dos: 10
-Tres: 27
-Cuatro: 18
-Cinco: 17
-Seis: 16
-Uno: 16
-Dos: 19
-Tres: 19
-Cuatro: 12
-Cinco: 20
-Seis: 13
+
 64. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
 -99. Será entonces cuando por pantalla aparecerán las siguientes estadísticas:
 a) total de pares
@@ -352,77 +254,9 @@ c) total de números positivos
 d) total de números negativos
 e) total de ceros
 f) total de la suma de todos los números introducidos
-Introduce un número: 5
-Introduce un número: 4
-Introduce un número: 5
-Introduce un número: 6
-Introduce un número: 7
-Introduce un número: 1
-Introduce un número: -6
-Introduce un número: -2
-Introduce un número: -99
-RESUMEN
-El número de pares es 4
-El número de impares es 4
-El número de positivos es 6
-El número de negativos es 2
-El total es 20
-PROGRAMACIÓN CON PYTHON
-Departamento de Tecnología
+
 65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
 -99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
-Introduce un número: 5
-Introduce un número: 4
-Introduce un número: 5
-Introduce un número: 6
-Introduce un número: 7
-Introduce un número: 1
-Introduce un número: -6
-Introduce un número: -2
-Introduce un número: -99
-RESUMEN
-El número de pares es 4
-El número de impares es 4
-El número de positivos es 6
-El número de negativos es 2
-El total es 20
+
 66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo 
 se comporta el dado en lanzamientos producidos durante aprox 3 segundos. 
-RESUMEN
-Tiempo: 3.0004172325134277
-Uno: 995637
-Dos: 994685
-Tres: 998149
-Cuatro: 995805
-Cinco: 997652
-Seis: 1000241
-3.000000476837158
-Uno: 981988
-Dos: 981767
-Tres: 979951
-Cuatro: 981394
-Cinco: 979586
-Seis: 982981
-67. Realiza de nuevo el programa de Password (fase 2). El password debe tener las siguientes 
-consideraciones:
-Debe tener una longitud entre 6 y 8 caracteres.
-Debe contener como mínimo:
-2 números mayores o iguales que 1 y menor o igual que 5
-2 letras minúsculas
-1 letra mayúscula
-2 símbolos (*, _, @, &,/,#)
-1 número mayor o igual que 6 y menor o igual que 5
-41A*a8#3
-2Aa*a
-8BA*t7#4
-1bB_a7/4
-1bB_a7
-2Aa*a5#8a
-password incorrecto
-password incorrecto
-password incorrecto
-password correcto
-password incorrecto
-password correcto
-66. Añade al ejercicio anterior la posibilidad de que el programa pregunte si deseas o no continuar 
-introduciendo passwords. Ej. “¿Deseas introducir otro password s/n
