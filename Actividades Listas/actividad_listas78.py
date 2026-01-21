@@ -9,8 +9,12 @@ while repeat=="s":
     if eliminado in lista1:
         if eliminado.isalpha():
             print("Introducir valor númerico")
-            repeat=("¿Deseas introducir otro valor? s/n")
+            repeat=input("¿Deseas introducir otro valor? s/n:")
         elif eliminado.isnumeric():
-            lista1=lista1.remove(eliminado)
+            lista1.remove(eliminado)
             print(lista1)
+            repeat=input("¿Deseas introducir otro valor? s/n:")
     else:
+        print("El valor introducido no está en la lista")
+        repeat=input("¿Deseas introducir otro valor? s/n:")
+        
