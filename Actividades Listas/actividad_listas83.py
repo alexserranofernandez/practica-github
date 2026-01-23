@@ -8,12 +8,11 @@
 #algún método que permita sumar el contenido de una lista?
 import random
 repeat_partidas="s"
-intentos=8
 puntos=[]
 while repeat_partidas!="n":
+    intentos=8
     lista=["casa","barco","gato","perro","madera","agua","puente","pantalón"]
     palabra=random.choice(lista)
-    intentos=8
     print(lista)
     palabra_introducida=input("Introduce una de las palabras de la lista:")
     while not palabra_introducida==palabra:
