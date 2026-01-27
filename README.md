@@ -326,4 +326,12 @@ Si el total supera la media de la puntuación posible de todas las partidas, se 
 suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
 algún método que permita sumar el contenido de una lista?
 
+84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las 
+palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la 
+palabra secreta.  El usuario tendrá 3 oportunidades para adivinar la palabra.
 
+85. Te piden realizar un programa en que gestionen la media y la mediana de varias de tres 
+asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el 
+programa debe mostrar la media y mediana los todos los alumnos introducidos.
+
+86. Realiza el ejercicio del DNI que encontrarás en el Sway
