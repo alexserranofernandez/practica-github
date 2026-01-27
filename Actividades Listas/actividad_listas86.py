@@ -7,11 +7,11 @@ continuar="s"
 while continuar=="s":
     dni = input("Introduce el número de DNI (8 dígitos): ")   
     if len(dni)!=8:
-        print("Error: El DNI debe tener exactamente 8 dígitos")
+        print("Error: El DNI tiene que tener exactamente 8 dígitos")
         lista_intentos.append(0)
         dni_incorrectos.append(dni)
     elif not dni.isnumeric():
-        print("Error: El DNI debe ser numérico")
+        print("Error: El DNI tiene que ser numérico")
         lista_intentos.append(1)
         dni_incorrectos.append(dni)
     else:
@@ -49,14 +49,14 @@ elif opcion=="2":
         print(dni)
 elif opcion=="3":
     total_errores=0
-    for codigo in lista_intentos:
-        if codigo!=3:
+    for i in lista_intentos:
+        if i!=3:
             total_errores = total_errores+1
     print(f"Número total de errores:{total_errores}")
 elif opcion=="4":
     total_correctos=0
-    for codigo in lista_intentos:
-        if codigo==3:
+    for i in lista_intentos:
+        if i==3:
             total_correctos=total_correctos+1
     print(f"Número total de DNIs correctos:{total_correctos}")
 elif opcion=="5":
@@ -65,26 +65,26 @@ elif opcion=="5":
     errores_numerico=0
     errores_resto=0
     correctos=0
-    for codigo in lista_intentos:
-        if codigo==0:
+    for i in lista_intentos:
+        if i==0:
             errores_longitud=errores_longitud+1
-        elif codigo==1:
+        elif i==1:
             errores_numerico=errores_numerico+1
-        elif codigo==2:
+        elif i==2:
             errores_resto=errores_resto+1
-        elif codigo==3:
+        elif i==3:
             correctos=correctos+1
     if total>0:
-        porc_correctos=(correctos/total)*100
-        porc_incorrectos=((errores_longitud+errores_numerico+errores_resto)/total)*100
-        porc_longitud=(errores_longitud/total)*100
-        porc_numerico=(errores_numerico/total)*100
-        porc_resto=(errores_resto / total)*100
-        print(f"% DNIs correctos: {round(porc_correctos, 1)}%")
-        print(f"% DNIs incorrectos: {round(porc_incorrectos, 1)}%")
-        print(f"% Errores de longitud: {round(porc_longitud, 1)}%")
-        print(f"% Errores de número: {round(porc_numerico, 1)}%")
-        print(f"% No existentes (resto inválido): {round(porc_resto, 1)}%")
+        porciento_correctos=(correctos/total)*100
+        porciento_incorrectos=((errores_longitud+errores_numerico+errores_resto)/total)*100
+        porciento_longitud=(errores_longitud/total)*100
+        porciento_numerico=(errores_numerico/total)*100
+        porciento_resto=(errores_resto / total)*100
+        print(f"% DNIs correctos: {round(porciento_correctos, 1)}%")
+        print(f"% DNIs incorrectos: {round(porciento_incorrectos, 1)}%")
+        print(f"% Errores de longitud: {round(porciento_longitud, 1)}%")
+        print(f"% Errores de número: {round(porciento_numerico, 1)}%")
+        print(f"% No existentes (resto inválido): {round(porciento_resto, 1)}%")
     else:
         print("No se han introducido DNIs")
 elif opcion=="6":
