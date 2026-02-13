@@ -1,0 +1,7 @@
+num=input()
+lista=num.split()
+a=int(lista[0])
+b=int(lista[1])
+c=int(lista[2])
+maximo=max(a,b,c)
+print(maximo)

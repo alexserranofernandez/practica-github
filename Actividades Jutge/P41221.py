@@ -1,7 +1,9 @@
-num=input()
-lista=num.split()
-a=int(lista[0])
-b=int(lista[1])
-c=int(lista[2])
-suma=a+b+c
-print(suma)
+lista=[]
+while len(lista) < 3:
+    num=input()
+    if num != "":
+        for i in num.split():
+            lista.append(int(i))
+            if len(lista)==3:
+                break
+print(lista[0]+lista[1]+lista[2])
